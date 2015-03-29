@@ -1,0 +1,24 @@
+locl     "C"
+tmzn     "GMT+00:00"
+creator  "AlexCaseiro-https://github.com/AlexCaseiro1979/z0_PT-utm_forA2K"
+created  2015-03-19.21:53:00
+ggcs     "UTM"
+xmin     445645.7
+ymin     4667220.1
+delta    100.0
+vldf     "V"
+sequ     "j-,i+"
+buff     1000000
+mode     "text"
+cmpr     9
+idnt     "CLC06_PT.shp"
+dims     2
+lowb     0 1
+hghb     0 5970
+file     "z0_PT-utm"
+size     2888
+form     "Classes%2887.2888s"
+data     "*"
+chsn     "windows-1252"
+lsbf     1
+*
