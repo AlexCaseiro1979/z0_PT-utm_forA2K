@@ -43,7 +43,7 @@ bash deASCparaDMNT.sh
 
 # O ficheiro resultante é o ficheiro .dmnt, que podemos renomear
 
-mv CLC06_PT_WGS84_noheader.asc z0_PT-utm.dmnt
+cp CLC06_PT_WGS84_noheader.asc z0_PT-utm.dmnt
 
 # and zip
 
