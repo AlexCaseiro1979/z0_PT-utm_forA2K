@@ -37,6 +37,10 @@ sed '1,5d' CLC06_PT_WGS84.asc > CLC06_PT_WGS84_noheader.asc
 # usando sed e echo num script bash:
 bash deASCparaDMNT.sh
 
+# o ficheiro pode ser verificado (n¿ero de elementos por linha) escrevendo o número de caracteres de cada linha para um ficheiro:
+
+awk '{ print length($0); }' CLC06_PT_WGS84_noheader.asc > elementsperline.txt
+
 # Pretendemos ter algo equivalente ao:
 # z0-utm.dmna, o cabecalho, que vamos fazer à mao
 # z0-utm.dmnt, os dados, que devem ser zipados (gz)
