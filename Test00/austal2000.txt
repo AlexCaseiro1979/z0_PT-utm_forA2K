@@ -1,0 +1,9 @@
+ti "Test00"
+az "anno95.akterm"
+hq       20 
+
+ux 29585360.5	' 40ºN 8ºW
+uy 4428236.1 
+
+so2    2.78	' 10 kg/h
+qs       -4

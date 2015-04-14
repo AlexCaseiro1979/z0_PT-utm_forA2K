@@ -1,0 +1,5 @@
+Test00 - test to check if the register file works. Simple source, one stack, no altimetry
+
+Test01 - realistic run, no use of the register file
+
+Test02 - realistic run as in Test01, use of the register file
