@@ -1,5 +1,10 @@
-Test00 - test to check if the register file works. Simple source, one stack, no altimetry
+The distributed register files shall be placed in the AUSTAL2000 executable directory.
+The distributed register files shall be renamed as follows:
 
-Test01 - realistic run, no use of the register file
+z0_PT-utm.dmna		-> z0-utm.dmna
+z0_PT-utm.dmnt.gz	-> z0-utm.dmnt.gz
 
-Test02 - realistic run as in Test01, use of the register file
+Test00 - simple source, one stack, no altimetry, no use of the register
+
+Test01 - same as Test00 + use of the register file
+

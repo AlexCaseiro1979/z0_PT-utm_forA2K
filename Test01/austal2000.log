@@ -1,0 +1,85 @@
+2015-04-14 16:38:46 ---------------------------------------------------------
+TalServer:Test01
+
+   Dispersion model AUSTAL2000, version 2.6.11-WI-x
+   Copyright (c) Umweltbundesamt, Dessau-Roßlau, 2002-2014
+   Copyright (c) Janicke Consulting, Überlingen, 1989-2014
+
+   Working directory: ./Test01 
+
+Program created at 2014-09-02 09:08:52
+The program is running on host "UVW-UVW".
+
+=============================== Start of input ==============================
+> ti "Test01"
+> hq       20
+> ux	29513180			'	ponto de referÃªncia (UTM, easting)
+> uy	4204237				'	ponto de referÃªncia (UTM, northing)
+> so2    2.78	' 10 kg/h
+> qs       -4
+> xa	0					'	posiÃ§Ã£o da meteorologia
+> ya	0
+> ha	5
+================================ End of input ===============================
+
+Definition of the computational grid:
+dd     20
+x0  -1000
+nx    100
+y0  -1000
+ny    100
+nz     19
+---------
+
+Non-standard register z0-utm.dmna (8cc709be) is used.
+The average value of z0 determined from the register is 0.990 m.
+The value of z0 is rounded to 1.00 m.
+The time series file "./Test01/series.dmna" is used.
+
+Check sum AUSTAL   524c519f
+Check sum TALDIA   6a50af80
+Check sum VDISP    3d55c8b9
+Check sum SETTINGS fdd2774f
+Check sum SERIES   b64f9169
+
+=====================================================================
+
+TMT: Evaluation of results for substance "so2"
+TMT: 365 daily averages (thereof invalid: 0)
+TMT: File "./Test01/so2-y00a" written.
+TMT: File "./Test01/so2-y00s" written.
+TMT: File "./Test01/so2-d03a" written.
+TMT: File "./Test01/so2-d03s" written.
+TMT: File "./Test01/so2-d03i" written.
+TMT: File "./Test01/so2-d00a" written.
+TMT: File "./Test01/so2-d00s" written.
+TMT: File "./Test01/so2-d00i" written.
+TMT: Files created by AUSTAL2000_2.6.11-WI-x.
+TQL: Calculation of short time averages for "so2"
+TQL: File "./Test01/so2-h24a" written.
+TQL: File "./Test01/so2-h24s" written.
+TQL: File "./Test01/so2-h00a" written.
+TQL: File "./Test01/so2-h00s" written.
+=====================================================================
+
+Evaluation of results:
+======================
+
+     DEP: Yearly average of deposition
+     Y00: Yearly average of concentration/frequency of odour hours
+     Dnn: Highest daily average of concentration with nn exceedances
+     Hnn: Highest hourly average of concentration with nn exceedances
+
+Maximum values, Concentration at z=1.5 m
+========================================
+SO2      Y00 :  53.2 µg/m³ (+/-  2.7%) at x=  -10 m, y=  -90 m ( 50, 46)
+SO2      D03 :   459 µg/m³ (+/- 19.2%) at x=  -10 m, y=  -90 m ( 50, 46)
+SO2      D00 :   694 µg/m³ (+/- 16.6%) at x=  -10 m, y= -110 m ( 50, 45)
+SO2      H24 :  2790 µg/m³ (+/- 35.8%) at x=  -10 m, y=  -90 m ( 50, 46)
+SO2      H00 :  6147 µg/m³ (+/- 28.5%) at x=   10 m, y=  -90 m ( 51, 46)
+=====================================================================
+
+2015-04-14 16:43:26 AUSTAL2000 finished.
+
+
+

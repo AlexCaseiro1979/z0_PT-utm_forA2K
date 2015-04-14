@@ -1,4 +1,4 @@
-ti "Test00"
+ti "Test01"
 hq       20 
 
 ux	29513180			'	ponto de referência (UTM, easting)
@@ -6,8 +6,6 @@ uy	4204237				'	ponto de referência (UTM, northing)
 
 so2    2.78	' 10 kg/h
 qs       -4
-
-z0	0.5
 
 xa	0					'	posição da meteorologia
 ya	0
